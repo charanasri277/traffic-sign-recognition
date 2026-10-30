@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv310/
+.env
+.venv/
+
+# Dataset - DO NOT PUSH
+dataset/
+Train/
+Test/
+Meta/
+
+# Large datasets
+*.zip
+*.rar
+*.7z
+
+# Model files
+# Uncomment if model is too large for GitHub
+# models/*.h5
+# models/*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
